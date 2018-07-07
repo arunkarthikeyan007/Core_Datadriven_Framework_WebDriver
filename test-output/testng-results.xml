@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="802" started-at="2017-05-12T06:00:06Z" finished-at="2017-05-12T06:00:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="802" started-at="2017-05-12T06:00:06Z" finished-at="2017-05-12T06:00:06Z">
+      <class name="com.testproject.suiteA.Testcase_A1">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:com.testproject.suiteA.Testcase_A1@7f690630]" name="checkSuiteSkip" is-config="true" duration-ms="1273" started-at="2017-05-12T11:30:04Z" finished-at="2017-05-12T11:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.testproject.suiteA.Testcase_A1@7f690630]" name="checkTestSkip" is-config="true" duration-ms="10" started-at="2017-05-12T11:30:06Z" finished-at="2017-05-12T11:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testcase_A1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testproject.suiteA.Testcase_A1@7f690630]" name="testcase_A1" duration-ms="12" started-at="2017-05-12T11:30:06Z" data-provider="getTestData" finished-at="2017-05-12T11:30:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testcase_A1_data X1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testcase_A1_data Y1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Testcase_A1_data Z1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_A1 -->
+        <test-method status="PASS" signature="testmethodreporter()[pri:0, instance:com.testproject.suiteA.Testcase_A1@7f690630]" name="testmethodreporter" is-config="true" duration-ms="479" started-at="2017-05-12T11:30:06Z" finished-at="2017-05-12T11:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethodreporter -->
+        <test-method status="SKIP" signature="testcase_A1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testproject.suiteA.Testcase_A1@7f690630]" name="testcase_A1" duration-ms="2" started-at="2017-05-12T11:30:06Z" data-provider="getTestData" finished-at="2017-05-12T11:30:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testcase_A1_data X2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testcase_A1_data Y2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Testcase_A1_data Z2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Testcase_A1 for data set 1 | Run mode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Testcase_A1 for data set 1 | Run mode is NO
+	at com.testproject.suiteA.Testcase_A1.testcase_A1(Testcase_A1.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_A1 -->
+        <test-method status="PASS" signature="testmethodreporter()[pri:0, instance:com.testproject.suiteA.Testcase_A1@7f690630]" name="testmethodreporter" is-config="true" duration-ms="92" started-at="2017-05-12T11:30:06Z" finished-at="2017-05-12T11:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethodreporter -->
+        <test-method status="PASS" signature="testcase_A1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testproject.suiteA.Testcase_A1@7f690630]" name="testcase_A1" duration-ms="1" started-at="2017-05-12T11:30:06Z" data-provider="getTestData" finished-at="2017-05-12T11:30:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testcase_A1_data X3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testcase_A1_data Y3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Testcase_A1_data Z3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_A1 -->
+        <test-method status="PASS" signature="testmethodreporter()[pri:0, instance:com.testproject.suiteA.Testcase_A1@7f690630]" name="testmethodreporter" is-config="true" duration-ms="98" started-at="2017-05-12T11:30:06Z" finished-at="2017-05-12T11:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethodreporter -->
+        <test-method status="PASS" signature="testcasereporter()[pri:0, instance:com.testproject.suiteA.Testcase_A1@7f690630]" name="testcasereporter" is-config="true" duration-ms="86" started-at="2017-05-12T11:30:06Z" finished-at="2017-05-12T11:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcasereporter -->
+      </class> <!-- com.testproject.suiteA.Testcase_A1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

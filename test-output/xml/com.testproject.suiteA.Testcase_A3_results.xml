@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test A3"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="3"
+           time="0.001">
+  <properties />
+  
+            <testcase name="checkTestSkip" time="0.0" classname="com.testproject.suiteA.Testcase_A3">
+          <skipped />
+    </testcase>
+            <testcase name="testcasereporter" time="0.0" classname="com.testproject.suiteA.Testcase_A3">
+          <skipped />
+    </testcase>
+            <testcase name="testcase_A3" time="0.0" classname="com.testproject.suiteA.Testcase_A3">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>
